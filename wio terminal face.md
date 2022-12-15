@@ -1,6 +1,6 @@
 # Wio Terminal expression showing
 
-<img src="0.jpg" width="800"/>
+<div align=center><img width = 500 src="https://files.seeedstudio.com/wiki/Wio-Terminal/img/wiotermianl_stand.jpg"/></div>
 
 This example demomstrates how to display the expression from Wio Terminal
 
@@ -77,10 +77,7 @@ void loop()
 ### Step 4. Use if statement to select the expression
 
 ```c++
-if (digitalRead(WIO_KEY_A) == LOW)
-   {
-        ...
-   }
+if (digitalRead(WIO_KEY_A) == LOW){...}
 ```
 
 ### Example code

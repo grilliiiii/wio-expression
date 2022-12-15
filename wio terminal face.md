@@ -1,18 +1,35 @@
-# Wio Terminal expression showing
+# Wio Terminal Robot Stand
 
-<img src="0.jpg" width="800"/>
+## Introduction
 
-This example demomstrates how to display the expression from Wio Terminal
+Thanks to [Nosk Wu](https://www.hackster.io/nosk/make-a-coooool-wio-terminal-robot-stand-c002af) from hackster.io. for building an interesting 3D printing robot shape stand to enhance the viewing of Wio Terminal! Adorable idea!
+
+<div align=center><img width = 500 src="https://files.seeedstudio.com/wiki/Wio-Terminal/img/wiotermianl_stand.jpg"/></div>
 
 ## Getting Started
 
+We here provide some expression examples that are displayed on Wio Terminal to show you how to program with LCD on the Wio Terminal. Meanwhile, we will use the buttons on the board to achieve image switching.
+
 ### Materials Required
 
-- Wio Terminal
+The material required here is only the Wio Terminal. The assembles of 3D printing components you can find [here](https://www.hackster.io/nosk/make-a-coooool-wio-terminal-robot-stand-c002af).
 
-<div align=center><img width = 800 src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/b5e839932a12c6938f4f9ff16fa3726a/0/0/0072.jpg"/></div>
+#### Hardware Required
+
+- [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
+
+<div align=center><img width = 500 src="https://media-cdn.seeedstudio.com/media/catalog/product/cache/b5e839932a12c6938f4f9ff16fa3726a/0/0/0072.jpg"/></div>
+
+
+#### Software Required
+
+- [Arduino](https://www.arduino.cc/en/software)
+
+If this is the first time you use Wio Terminal with Arduino, it is highly recommanded to check ["Getting started"](https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/) wiki to understand how to upload codes to the board.
 
 ### Step 1. Pull up the Configurable Buttons
+
+This is the example about using buttons on the board.
 
 >**Note**: `WIO_KEY_A`, `WIO_KEY_B` and `WIO_KEY_C` are defined for the Wio Terminal configurable buttons.
 
@@ -24,6 +41,10 @@ void setup()
    pinMode(WIO_KEY_C, INPUT_PULLUP);
 }
 ```
+
+The result is something like:
+
+{tu}
 
 ### Step 2. Initialize the TFT LCD Screen
 

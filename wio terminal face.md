@@ -1,4 +1,4 @@
-# Wio Terminal Robot Stand
+# Wio Terminal Root Stand
 
 ## Introduction
 

@@ -14,7 +14,7 @@ We provide some expression examples that are displayed on Wio Terminal to show y
 
 The material required here is only the Wio Terminal. The assembles of 3D printing components you can find [here](https://www.hackster.io/nosk/make-a-coooool-wio-terminal-robot-stand-c002af).
 
-//#### Hardware Required
+#### Hardware Required
 
 - [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
 

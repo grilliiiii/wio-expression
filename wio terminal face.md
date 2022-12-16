@@ -8,7 +8,7 @@ Thanks to [Nosk Wu](https://www.hackster.io/nosk/make-a-coooool-wio-terminal-rob
 
 ## Getting Started
 
-We here provide some expression examples that are displayed on Wio Terminal to show you how to program with LCD on the Wio Terminal. Meanwhile, we will use the buttons on the board to achieve image switching.
+We provide some expression examples that are displayed on Wio Terminal to show you how to program with LCD on the Wio Terminal. Meanwhile, we will use the buttons on the board to achieve image switching.
 
 ### Materials Required
 
